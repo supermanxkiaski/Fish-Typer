@@ -31,8 +31,33 @@ word = ''
 # Initialize the list of chosen words
 chosen_words = []
 
-# List of words to check
-words_to_check = ['bee', 'fly', 'no', 'way', 'there', 'is', 'to', 'all', 'known', 'laws', 'of', 'aviation', 'should', 'be', 'able']
+# List of words to check,
+words_to_check = ['bee', 'fly', 'way', 'there', 'islam', 'know', 'laws', 'dove', 'aviation', 'should', 'believe', 'able', 'the', 'america', 'has', 'made', 'make', 'was', 'are', 'our', 'daughter', 'johnny', 'sammy', 
+                  'like', 'live', 'life', 'love', 'you', 'jus', 'jude', 'moose', 'goose', 'where', 'plane', 'crash', 'build', 'yeah', 'yes', 'not', 'real', 'juice', 'cheese', 'walrus', 'and', 'then', 'they', 'arm', 'erect',
+                   'that', 'have', 'had', 'for', 'with', 'fat', 'dahmer', 'this', 'talk', 'speak', 'speech', 'russia', 'language', 'horse', 'cod', 'fish', 'but', 'his', 'her', 'bossy', 'boy', 'girl',
+                    'man', 'women', 'knee', 'push', 'pull', 'suck', 'swallow', 'eat', 'puke', 'barf', 'vomit', 'food', 'war', 'gun', 'shoot', 'shot', 'write', 'right', 'left', 'cup', 'down', 'female', 'dog', 'africa',
+                     'tiger', 'lions', 'bird', 'dino', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'twenty', 'thirty', 'fourty', 'fifty', 'hundred', 'thousand', 'million' 
+                      'celia', 'giraffe', 'elephant', 'animal', 'worm', 'bug', 'annoy', 'from', 'say', 'she', 'will', 'law', 'rule', 'police', 'ground', 'swear', 'word', 'goin', 'wanna', 'want', 'would', 'japan', 'blind', 'german', 'classic'
+                       'sonic', 'wind', 'dirt', 'tear', 'paper', 'rapper', 'gum', 'would', 'could', 'good', 'bad', 'bald', 'phantom', 'ghost', 'shadow', 'picture', 'video', 'photo', 'graph', 'look', 'ever', 'time', 'laugh', 'what', 'out', 'animate', 'who', 'get', 'cosby',
+                        'friend', 'enemy', 'guy', 'dead', 'when', 'can', 'door', 'patio', 'radio', 'hear', 'here', 'stand', 'walk', 'mountain', 'puma', 'joke', 'choke', 'breath', 'staff', 'cow', 'owl', 'deer', 'forgot', 'kinda', 'just', 'evil', 'thing', 'body', 'some', 'son', 'sun', 'big', 'small', 'little', 'all', 
+                         'huge', 'take', 'took', 'knife', 'blade', 'sword', 'katana', 'color', 'which', 'red', 'blue', 'yellow', 'complain', 'lawn', 'yawn', 'yarn', 'rhino', 'ice', 'now', 'ski', 'pole', 'north', 'south', 'east', 'west', 'wheat', 'feed',
+                          'into', 'bend', 'chair', 'cause', 'people', 'person', 'child', 'lid', 'kid', 'bid', 'onto', 'outro', 'intro', 'year', 'day', 'second', 'first', 'third', 'minute', 'hour', 'week', 'weak', 'month', 'jam', 'parrot', 'bear', 'grizzly', 'music', 'song', 
+                           'hell', 'heel', 'goes', 'heaven', 'random', 'tube', 'pipe', 'drill', 'saw', 'seen', 'scene', 'delete', 'erase', 'rid', 'jay', 'jet', 'other', 'mom', 'dad', 'only', 'before', 'after', 'during', 'middle', 'school', 'drink', 'eat', 'any', 'fist', 'fight', 'kind',
+                            'soldier', 'battle', 'field', 'computer', 'think', 'thought', 'black', 'back', 'eaow', 'use', 'work', 'job', 'employ', 'skin', 'race', 'native', 'culture', 'vine', 'biden', 'joe', 'new', 'old', 'swim', 'suit', 'dive', 'die', 'desert', 'jungle', 'air', 'gas', 'poison', 'mush', 'room', 'bath',
+                             'hospital', 'port', 'hang', 'stab', 'thank', 'welcome', 'most', 'least', 'home', 'near', 'deep', 'shallow', 'world', 'exist', 'mean', 'nice', 'water', 'pop', 'doctor', 'pepper', 'soda', 'sew', 'soon', 'asia', 'india', 'narwal', 
+                              'uniform', 'badge', 'leg', 'hand', 'finger', 'middle', 'between', 'far', 'hill', 'over', 'done', 'kill', 'aardvark', 'ant', 'land', 'locate', 'location', 'fake', 'eye', 'found', 'part', 'piece', 'brick', 'stick', 'straw', 'cut', 'slice', 
+                               'open', 'ready', 'prepare', 'pair', 'case', 'point', 'mark', 'number', 'rain', 'raid', 'military', 'base', 'storm', 'may', 'government', 'town', 'city', 'district', 'hood', 
+                                'suprise', 'letter', 'mail', 'pack', 'mouse', 'fact', 'onion', 'power', 'truth', 'phone', 'sister', 'god', 'devil', 'egg', 'eel', 'pot', 'tomato', 'tornado', 'weather', 'strap',
+                                 'way', 'group', 'organ', 'car', 'truck', 'aim', 'miss', 'fire', 'depart', 'leave', 'leaf', 'return', 'xray', 'act', 'show', 'present', 'rise', 'set', 'got', 'start', 'half', 'hole', 'full', 'entire', 'egypt', 'rock', 'cloud', 'star',
+                                  'possible', ' care', 'space', 'inner', 'foam', 'stare', 'top', 'spot', 'stairs', 'flight', 'trade', 'center', 'murder', 'genocide', 'mass', 'terror', 'speed', 'fast', 'slow', 'flash', 'dull', 'sound', 'night', 'seed'
+                                   'oops', 'sorry', 'upset', 'machine', 'vend', 'run', 'jump', 'sit', 'same', 'differ', 'side', 'other', 'teal', 'archer', 'amaze', 'autism', 'cigar', 'smoke', 'noah', 'tree', 'snake', 'orange', 'did'
+                                    'let', 'finish', 'negro', 'nword', 'bag', 'apple', 'bae', 'bay', 'off', 'set', 'buy', 'sell', 'hot', 'cold', 'end', 'key', 'pay', 'few', 'age', 'yet', 'box', 'fox', 'sap', 'log', 'frog', 'swam',
+                                     'lake', 'pond', 'pound', 'try', 'due', 'ago', 'oil', 'tin', 'hat', 'cap', 'bat', 'act', 'assault', 'rifle', 'test', 'ape', 'art', 'ash', 'ask', 'ate', 'axe', 'ayeaye', 'captain', 'bar', 'snack', 'hollow', 'holland', 'follow', 'foil', 'bed', 'beef', 'beg', 'bell', 
+                                      'beer', 'ear', 'ufo', 'saw', 'usa', 'utah', 'wave', 'wig', 'vhs', 'won', 'win', 'wag', 'wet', 'vet', 'why', 'noah', 'boat', 'wood', 'wow', 'toy', 'score', 'tab', 'tap', 'swipe', 
+                                       'teddy', 'tell', 'tea', 'tie', 'toad', 'browser', 'tri', 'poloski', 'tug', 'motor', 'team', 'oof', 'oak', 'wizard', 'lizard', 'iguana', 'blizard', 'great', 'orca', 'whale', 'inhale',
+                                        'sale', 'sail', 'garage', 'laugh', 'oscar', 'smack', 'chris', 'rock', 'own', 'hawk', 'pacman', 'pan', 'fry', 'pal', 'pass', 'pat', 'head', 'leg', 'foot', 'paw', 'pectopah', 'pen', 'puppy', 
+                                         'pet', 'pig', 'pie', 'pink', 'pill', 'pin', 'pit', 'donkey', 'bong', 'pod', 'pop', 'soda', 'poor', 'monkey', 'cat', 'pro', 'pug', 'punch', 'kick', 'put', 'shame', 'jake', 'bloom', 'jar',
+                                          'jar', 'jew', 'jog', 'joe', 'joy', 'eddy', 'ivy', 'plant', 'trap', 'venus', 'ian', 'iowa', 'india', 'emu', 'ink', 'info', 'its', 'nut', 'hack', 'rack', 'sack', 'back', 'idaho', 'iam', ]
 
 while True:
     # Capture a video frame
@@ -94,9 +119,9 @@ while True:
         cell_x = min((cX - grid_start_x) // (width // 5), letters.shape[1] - 1)  # Adjust this value according to your grid size
         cell_y = min((cY - grid_start_y) // (height // 7), letters.shape[0] - 1)  # Adjust this value according to your grid size
 
-        # Print the letter every 4 seconds
+        # Print the letter every 6 seconds
         current_time = time.time()
-        if current_time - last_time >= 4:
+        if current_time - last_time >= 5.5:
             letter = letters[cell_y, cell_x]
             print(letter, end='')  # Print the letter next to the previous one without adding a newline
             engine.say(letter)
@@ -122,7 +147,7 @@ while True:
             cv2.putText(frame, letters[i, j], (j * (width // 5) + 5 + grid_start_x, i * (height // 7) + 15 + grid_start_y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
 
     # Display the frame
-    cv2.imshow('Fish Types The Bee Movie Script', frame)
+    cv2.imshow('Fish Types Words', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
